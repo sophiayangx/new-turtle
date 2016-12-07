@@ -18,4 +18,11 @@ function sides(distance, n) {
 
 sides(3, 6)
 
+function sides(distance, n) {
+  for (i = 0; i < n; i++) {
+    goForwardStar(100)
+    turnLeftStar(n);
+  }
+}
 
+sides(3, 6)

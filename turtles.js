@@ -11,6 +11,14 @@ function turnLeft(n) {
   heading = heading + 360/n 
 }
 
+function turnRightStar(n) {
+  heading = heading - 36
+}
+
+function turnLeftStar(n) {
+  heading = heading + 108
+}
+
 function goForward(distance) {    
   var radians = -1 * heading * (Math.PI/180);
   var yIncrement = Math.sin(radians) * distance;
