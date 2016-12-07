@@ -7,7 +7,4 @@ $("body").keydown(function(keydownEvent) {
 
 var position = 200
 
-function origPosition () {
-  position.x = position.x + xIncrement;
-  position.y = position.y + yIncrement;
-}
+insertLine(200, 30, 200)

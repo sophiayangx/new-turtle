@@ -42,7 +42,7 @@ function insertLine(start, angle, distance) {
     height: "1px",
     "transform-origin": "0 0 0",
     transform: "rotate(" + angle + "deg)",
-    background: "black",
+    background: "green",
     position: "absolute"
   })
   
