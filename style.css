@@ -1,10 +1,11 @@
 #turtle {
   height: 200px;
   position: absolute;
-  bottom: 10px;
+  bottom: 300px;
 }
 
 .turtle-cage {
   height: 500px;
   position: relative;
+  text-align: center
 }
