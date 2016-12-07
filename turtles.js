@@ -3,11 +3,11 @@ var position = {x: 0, y: 0};
 var turtle = $("#turtle");
 var turtleCage = $(".turtle-cage")
 
-function turnRight() {
+function turnRight(n) {
   heading = heading + 360/n
 }
 
-function turnLeft() {
+function turnLeft(n) {
   heading = heading + 360/n 
 }
 
