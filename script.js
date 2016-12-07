@@ -5,4 +5,7 @@ $("body").keydown(function(keydownEvent) {
   } 
 })
 
-origPosition 
+function origPosition () {
+  position.x + 100;
+  position.y + 100
+}
