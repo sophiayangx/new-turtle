@@ -9,6 +9,11 @@ $("body").keydown(function(keydownEvent) {
 //
 ////insertLine(200, 30, 200)
 
-function sides(distance, n) {}
+function sides(distance, n) {
+  for (i = 0; i < n; i++) {
+    goForward(100)
+    turnLeft();
+  }
+}
 
 sides(3, 180)
