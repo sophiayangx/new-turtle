@@ -8,3 +8,7 @@ $("body").keydown(function(keydownEvent) {
 //var position = 200
 //
 ////insertLine(200, 30, 200)
+
+function sides(distance, n) {}
+
+sides(3, 180)
