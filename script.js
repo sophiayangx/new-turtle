@@ -17,3 +17,5 @@ function sides(distance, n) {
 }
 
 sides(3, 6)
+
+
