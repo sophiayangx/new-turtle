@@ -16,4 +16,4 @@ function sides(distance, n) {
   }
 }
 
-sides(3, 180)
+sides(30, 120)
