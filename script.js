@@ -5,6 +5,6 @@ $("body").keydown(function(keydownEvent) {
   } 
 })
 
-var position = 200
-
-insertLine(200, 30, 200)
+//var position = 200
+//
+////insertLine(200, 30, 200)
