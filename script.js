@@ -5,7 +5,9 @@ $("body").keydown(function(keydownEvent) {
   } 
 })
 
+var position = 200
+
 function origPosition () {
-  position.x + 100;
-  position.y + 100
+  position.x = position.x + xIncrement;
+  position.y = position.y + yIncrement;
 }
