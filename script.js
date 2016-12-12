@@ -32,12 +32,12 @@ $("body").keydown(function(keydownEvent) {
   } 
 })
 
-//$("body").keydown(function(keydownEvent) {
-//  if (keydownEvent.keyCode === 38) {
-//    turnUp()
-//    goForward(100)
-//  } 
-//})
+$("body").keydown(function(keydownEvent) {
+  if (keydownEvent.keyCode === 38) {
+    turnUp()
+    goForward(100)
+  } 
+})
 
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode === 37) {
