@@ -12,7 +12,7 @@ function turnLeft(n) {
 }
 
 function turnUp(n) {
-  heading = heading + 90
+  heading = heading - 90
 }
 
 function turnDown(n) {
