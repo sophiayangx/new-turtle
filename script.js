@@ -27,8 +27,16 @@ function sides(distance, n) {
 
 sides(3, 6)
 
+
+
 $("body").keydown(function(keydownEvent) {
-  if (keydownEvent.keyCode === 38) {
+  if (keydownEvent.keyCode === 39) {
+    goForward(100);
+  } 
+})
+
+$("body").keydown(function(keydownEvent) {
+  if (keydownEvent.keyCode === 37) {
     goForward(100);
     turnLeft();
   } 
