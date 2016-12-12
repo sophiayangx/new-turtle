@@ -35,7 +35,7 @@ $("body").keydown(function(keydownEvent) {
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode === 37) {
     turnLeft();
+    
     goForward(100);
-
   } 
 })
