@@ -34,7 +34,8 @@ $("body").keydown(function(keydownEvent) {
 
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode === 38) {
-    go(100);
+    turnUp()
+    goForward(100)
   } 
 })
 
