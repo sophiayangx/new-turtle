@@ -15,6 +15,10 @@ function turnUp(n) {
   heading = heading + 90
 }
 
+function turnDown(n) {
+  heading = heading + 90
+}
+
 function turnRightStar(n) {
   heading = heading - 36
 }

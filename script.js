@@ -45,3 +45,10 @@ $("body").keydown(function(keydownEvent) {
     goForward(100);
   } 
 })
+
+$("body").keydown(function(keydownEvent) {
+  if (keydownEvent.keyCode === 36) {
+    turnDown();
+    goForward(100);
+  } 
+})
