@@ -24,7 +24,7 @@ $("body").keydown(function(keydownEvent) {
 
 //sides(3, 6)
 
-
+//December 12th, Day 2
 
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode === 39) {
@@ -33,9 +33,15 @@ $("body").keydown(function(keydownEvent) {
 })
 
 $("body").keydown(function(keydownEvent) {
+  if (keydownEvent.keyCode === 39) {
+    goUp(100);
+  } 
+})
+
+$("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode === 37) {
     turnLeft();
-    
+    turnLeft();
     goForward(100);
   } 
 })
