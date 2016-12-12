@@ -47,7 +47,7 @@ $("body").keydown(function(keydownEvent) {
 })
 
 $("body").keydown(function(keydownEvent) {
-  if (keydownEvent.keyCode === ) {
+  if (keydownEvent.keyCode === 36) {
     turnDown();
     goForward(100);
   } 
